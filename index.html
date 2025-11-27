@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Database Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Student Database Viewer</h1>
+
+<div class="controls">
+    <button id="avgBtn">Calculate Average Marks</button>
+
+    <select id="filterStatus">
+        <option value="all">All Students</option>
+        <option value="pass">Pass</option>
+        <option value="fail">Fail</option>
+    </select>
+
+    <button id="sortMarks">Sort by Marks</button>
+</div>
+
+<h3 id="averageOutput"></h3>
+
+<table id="studentTable">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Course</th>
+            <th>Marks</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>

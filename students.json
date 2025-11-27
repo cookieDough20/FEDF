@@ -1,0 +1,9 @@
+{
+  "students": [
+    { "id": 1, "name": "Riya Sharma", "course": "CSE", "marks": 85, "status": "" },
+    { "id": 2, "name": "Arjun Verma", "course": "ECE", "marks": 72, "status": "" },
+    { "id": 3, "name": "Sara Khan",  "course": "IT",  "marks": 91, "status": "" },
+    { "id": 4, "name": "Rahul Nair", "course": "ME",  "marks": 48, "status": "" },
+    { "id": 5, "name": "Ananya Joshi", "course": "EEE", "marks": 55, "status": "" }
+  ]
+}

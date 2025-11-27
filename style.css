@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #d6ecff; /* Light Blue Background */
+}
+
+h1 {
+    text-align: center;
+}
+
+.controls {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px #ccc;
+    background: #ffffff; /* Table white background */
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #f4f4f4;
+}
+
+.pass {
+    color: green;
+    font-weight: bold;
+}
+
+.fail {
+    color: red;
+    font-weight: bold;
+}
